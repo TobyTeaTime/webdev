@@ -20,10 +20,11 @@ java {
 
 application {
     mainClass.set("com.tobyteatime.Win")
+    applicationDefaultJvmArgs = listOf("--enable-native-access=javafx.graphics")
 }
 
 javafx {
-    version = "21"
+    version = "25.0.2"
     modules = listOf("javafx.controls", "javafx.fxml")
 }
 
