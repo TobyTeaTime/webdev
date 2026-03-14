@@ -19,7 +19,7 @@ java {
 }
 
 application {
-    mainClass.set("com.tobyteatime.Win")
+    mainClass.set("com.tobyteatime.WinModel")
     applicationDefaultJvmArgs = listOf("--enable-native-access=javafx.graphics")
 }
 
