@@ -42,7 +42,6 @@ public class WinController {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         label.setText("Hello");
-        System.out.println("HELLO HELLO HELLO");
     }
 
 }
